@@ -278,7 +278,7 @@ public class IndexContorller {
 		}
 		/**
 		 * <p>数据统计</p>
-		 * <p>前端页面需需优化</p>
+		 * <p>前端页面需要优化</p>
 		 */
 		public void Statistics(Model m,HttpServletRequest request) {
 			List<Channel> findChannelByAll = channelService.findChannelByAll();
