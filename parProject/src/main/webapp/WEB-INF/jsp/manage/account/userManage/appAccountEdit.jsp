@@ -95,7 +95,6 @@
 			<label class="layui-form-label">账户类别</label>
 			<div class="layui-input-inline">
 				 <select name="retain2" lay-filter="aihao">
-		        <option value="1" <c:if test="${user.retain2 eq '1'}">selected="selected"</c:if>>码商（卡商）</option>
 		        <option value="2"<c:if test="${user.retain2 eq '2'}">selected="selected"</c:if>>商户</option>
 		        <option value="6"<c:if test="${user.retain2 eq '6'}">selected="selected"</c:if>>代理商</option>
 		      </select>
